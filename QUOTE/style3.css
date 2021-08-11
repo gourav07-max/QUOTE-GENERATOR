@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+	background-color: #f4f4f4;
+	color:#555;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	margin: 0; 
+}
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+#main-header{
+	background-color: crimson;
+	color: #fff;
+        
+}
+#navbar{
+	background-color: #22313F;
+	color: #fff;
+}
+#navbar ul
+{
+	padding: 0;
+list-style: none;
+}
+#navbar li
+{
+	display: inline;
+}
+#navbar a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding-right: 15px;
+}
+#navbar a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+
+#showcase{
+	background-image: url('C:\Users\gourav rudrawar\Desktop\q\OIP.jpg');
+	background-position: center ;
+	text-align:center;
+	
+}
+#showcase h1{
+	color: #fff;
+	font-size: 50px;
+	line-height: 1.6em;
+	padding-top: 30px;
+}
+#main{
+	float:left;
+
+	width:100%;
+	padding:0 30px;
+	box-sizing: border-box;
+        text-align:center;
+}
+#sidebar{
+	float:left;
+	width:30%;
+	background:#333;
+	color: #fff;
+	padding:10px;
+	box-sizing: border-box;
+}
+#main-footer{
+	background:#333;
+	color: #fff;
+	text-align:center;
+	padding:20px;
+}
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}
